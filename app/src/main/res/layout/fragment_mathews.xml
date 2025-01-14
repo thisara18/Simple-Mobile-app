@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MathewsFragment"
+    android:padding="16dp"
+    android:background="#89A7F0">
+    <TextView
+        android:id="@+id/lbl1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Angelo Mathews"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        />
+    <ImageView
+        android:id="@+id/image1"
+        android:layout_width="400dp"
+        android:layout_height="180dp"
+        android:src="@drawable/mathews"
+        android:layout_margin="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/lbl1"/>
+    <TextView
+        android:id="@+id/lbl2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Angelo Mathews is a highly experienced Sri Lankan cricketer,
+renowned for his all-round abilities and leadership skills. Born on June 2, 1987, in Colombo,
+Sri Lanka, he has been a cornerstone of Sri Lankan cricket since his debut in 2008. Mathews
+is known for his dependable batting, useful medium-pace bowling, and calm presence under
+pressure. A former captain, he has led Sri Lanka to memorable victories, including the
+Asia Cup in 2014. "
+        android:textSize="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/image1"
+        android:textColor="@color/black"
+        android:textAlignment="center"
+        />
+</RelativeLayout>

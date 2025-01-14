@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".KusalFragment"
+    android:padding="16dp"
+    android:background="#89A7F0"
+   >
+    <TextView
+        android:id="@+id/lbl1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kusal Mendis"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        />
+    <ImageView
+        android:id="@+id/image1"
+        android:layout_width="400dp"
+        android:layout_height="180dp"
+        android:src="@drawable/kusal"
+        android:layout_margin="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/lbl1"/>
+    <TextView
+        android:id="@+id/lbl2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kusal Mendis is a talented Sri Lankan cricketer known for his aggressive batting style and versatility in all formats of the game. Born on February 2, 1995, in Moratuwa, Sri Lanka, he debuted for the national team in 2015. Mendis is celebrated for his ability to perform under pressure, with notable innings including a match-winning century against Australia in 2016 and other significant contributions in ODIs and T20Is. "
+        android:textSize="20dp"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/black"
+        android:layout_below="@+id/image1"
+        android:textAlignment="center"
+        />
+</RelativeLayout>

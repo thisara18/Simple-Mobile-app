@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WaninduFragment"
+    android:padding="16dp"
+    android:background="#89A7F0">
+    <TextView
+        android:id="@+id/lbl1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Wanindu Hasaranga"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        />
+    <ImageView
+        android:id="@+id/image1"
+        android:layout_width="400dp"
+        android:layout_height="180dp"
+        android:src="@drawable/wanindu"
+        android:layout_margin="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/lbl1"/>
+    <TextView
+        android:id="@+id/lbl2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Wanindu Hasaranga is a world-class Sri Lankan cricketer, widely regarded as one of the best leg-spinning all-rounders in modern cricket. Born on July 29, 1997, in Galle, Sri Lanka, he made his international debut in 2017 and quickly rose to prominence for his wicket-taking ability and explosive batting. "
+        android:textSize="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/image1"
+        android:textColor="@color/black"
+        android:textAlignment="center"
+        />
+</RelativeLayout>

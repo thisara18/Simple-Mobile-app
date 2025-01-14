@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DasunFragment"
+    android:padding="16dp"
+    android:background="#89A7F0">
+    <TextView
+        android:id="@+id/lbl1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dasun Shanaka"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        />
+    <ImageView
+        android:id="@+id/image1"
+        android:layout_width="400dp"
+        android:layout_height="180dp"
+        android:src="@drawable/dasun"
+        android:layout_margin="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/lbl1"/>
+    <TextView
+        android:id="@+id/lbl2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dasun Shanaka is a talented Sri Lankan cricketer and the current captain of Sri Lanka's limited-overs teams. Born on September 9, 1991, in Negombo, Sri Lanka, he is known for his powerful batting and handy seam bowling. Shanaka made his international debut in 2015 and has since been recognized as a reliable finisher and an impactful all-rounder in T20Is and ODIs. Under his leadership, Sri Lanka has achieved significant milestones, including winning the Asia Cup in 2022. "
+        android:textSize="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/image1"
+        android:textColor="@color/black"
+        android:textAlignment="center"
+        />
+</RelativeLayout>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PathumFragment"
+    android:padding="16dp"
+    android:background="#89A7F0">
+    <TextView
+        android:id="@+id/lbl1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pathum Nissanka"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        />
+    <ImageView
+        android:id="@+id/image1"
+        android:layout_width="400dp"
+        android:layout_height="180dp"
+        android:src="@drawable/pathum"
+        android:layout_margin="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/lbl1"/>
+    <TextView
+        android:id="@+id/lbl2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pathum Nissanka is a promising Sri Lankan cricketer known for his solid technique and consistency as a top-order batter. Born on May 18, 1998, in Galle, Sri Lanka, he made his international debut in 2021 and quickly gained recognition for his adaptability across all formats. Nissanka's maiden Test century came on debut against the West Indies, showcasing his temperament and skill. "
+        android:textSize="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/image1"
+        android:textColor="@color/black"
+        android:textAlignment="center"
+        />
+</RelativeLayout>
